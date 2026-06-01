@@ -106,7 +106,7 @@ export default function EventsPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6"
           >
-            Book <span className="text-coral-500">Events Ground</span>
+            <span className="text-gray-900">Book</span> <span className="text-gray-900">Events Ground</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
