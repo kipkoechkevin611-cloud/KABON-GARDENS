@@ -3,6 +3,7 @@ import AboutSection from './components/sections/AboutSection'
 import AmenitiesSection from './components/sections/AmenitiesSection'
 import WhyChooseUsSection from './components/sections/WhyChooseUsSection'
 import EventsGroundSection from './components/sections/EventsGroundSection'
+import PhotoGallerySection from './components/sections/PhotoGallerySection'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <AmenitiesSection />
+      <PhotoGallerySection />
       <EventsGroundSection />
       <WhyChooseUsSection />
     </>
