@@ -130,7 +130,7 @@ export default function BookingPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6"
           >
-            Book Your <span className="gradient-text">Stay</span>
+            <span className="text-gray-900">Book Your</span> <span className="text-gray-900">Stay</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}

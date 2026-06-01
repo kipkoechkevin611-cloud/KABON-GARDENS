@@ -47,7 +47,7 @@ export default function HeroSection() {
           >
             Experience Premium
             <br />
-            <span className="text-gray-900">Comfort in Kabarnet</span>
+            <span className="gradient-text">Comfort in Kabarnet</span>
           </motion.h1>
 
           {/* Subheadline */}

@@ -7,23 +7,19 @@ export default function PhotoGallerySection() {
   const photos = [
     {
       src: '/images/WhatsApp Image 2026-06-01 at 6.38.06 PM.jpeg',
-      alt: 'Kabon Gardens Property View',
-      title: 'Beautiful Gardens'
+      alt: 'Kabon Gardens Property View'
     },
     {
       src: '/images/WhatsApp Image 2026-06-01 at 6.38.07 PM.jpeg',
-      alt: 'Luxury Apartment Interior',
-      title: 'Luxury Interiors'
+      alt: 'Luxury Apartment Interior'
     },
     {
       src: '/images/WhatsApp Image 2026-06-01 at 6.38.13 PM.jpeg',
-      alt: 'Swimming Pool Area',
-      title: 'Private Pool'
+      alt: 'Swimming Pool Area'
     },
     {
       src: '/images/WhatsApp Image 2026-06-01 at 6.38.14 PM.jpeg',
-      alt: 'Events Ground',
-      title: 'Events Space'
+      alt: 'Events Ground'
     }
   ]
 
@@ -64,9 +60,6 @@ export default function PhotoGallerySection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-white text-xl font-bold">{photo.title}</h3>
-                </div>
               </div>
             </motion.div>
           ))}
