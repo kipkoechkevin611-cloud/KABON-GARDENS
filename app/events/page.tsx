@@ -106,7 +106,7 @@ export default function EventsPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6"
           >
-            Book <span className="gradient-text">Events Ground</span>
+            Book <span className="text-coral-500">Events Ground</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -296,7 +296,7 @@ export default function EventsPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Events Ground <span className="gradient-text">Features</span>
+              Events Ground <span className="text-coral-500">Features</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Everything you need for a successful event
