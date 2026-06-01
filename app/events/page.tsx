@@ -296,7 +296,7 @@ export default function EventsPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Events Ground <span className="text-coral-500">Features</span>
+              Events Ground <span className="text-gray-900">Features</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Everything you need for a successful event

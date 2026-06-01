@@ -23,7 +23,7 @@ export default function AboutSection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Your <span className="text-coral-500">Home</span> in Kabarnet
+              Your <span className="text-gray-900">Home</span> in Kabarnet
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Escape the heat and noise of everyday life at Kabon Gardens. Our serviced apartments

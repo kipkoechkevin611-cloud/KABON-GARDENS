@@ -38,7 +38,7 @@ export default function EventsGroundSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Events <span className="text-coral-500">Ground</span>
+            Events <span className="text-gray-900">Ground</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Host your special occasions at our beautiful events ground
