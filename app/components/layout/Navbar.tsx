@@ -60,7 +60,7 @@ export default function Navbar() {
               href="/booking"
               className="btn-primary text-sm px-6 py-3"
             >
-              Book Now
+              <span className="text-white font-semibold">Book Now</span>
             </Link>
           </div>
 
@@ -91,7 +91,7 @@ export default function Navbar() {
               className="btn-primary block text-center mt-4"
               onClick={() => setIsOpen(false)}
             >
-              Book Now
+              <span className="text-white font-semibold">Book Now</span>
             </Link>
           </div>
         )}

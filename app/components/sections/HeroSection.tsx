@@ -69,7 +69,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link href="/booking" className="btn-primary inline-flex items-center justify-center space-x-2">
-              <span>Check Availability</span>
+              <span className="text-white font-semibold">Check Availability</span>
               <ArrowRight size={20} />
             </Link>
             <Link href="/#amenities" className="btn-secondary inline-flex items-center justify-center">

@@ -76,7 +76,7 @@ export default function EventsGroundSection() {
             href="/events"
             className="btn-primary inline-flex items-center space-x-2"
           >
-            <span>Book Events Ground</span>
+            <span className="text-white font-semibold">Book Events Ground</span>
           </a>
         </motion.div>
       </div>

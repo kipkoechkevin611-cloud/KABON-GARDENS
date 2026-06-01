@@ -58,7 +58,7 @@ export default function AboutSection() {
                 className="glass-card p-6 hover:border-coral-500/30 transition-all duration-300 group"
               >
                 <feature.icon className="w-8 h-8 text-coral-500 mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="text-white font-semibold mb-2">{feature.title}</h3>
+                <h3 className="text-gray-900 font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-500 text-sm">{feature.desc}</p>
               </motion.div>
             ))}
